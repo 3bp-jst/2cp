@@ -1,0 +1,11 @@
+parnames = {1: 'lambda', 2: 'mu'}
+unames = {1: 'X', 2: 'Y', 3: 'Xp', 4: 'Yp'}
+NDIM=   4, IPS =   1, IRS =   0, ILP =   0
+ICP =  ['mu','lambda','PERIOD']
+NTST=  25, NCOL=   4, IAD =   3, ISP =   3, ISW = 1, IPLT= 0, NBC= 0, NINT= 0
+NMX=  200, NPR=  200, MXBF=  -3, IID =   2, ITMX= 8, ITNW= 5, NWTN= 3, JAC= 0
+EPSL= 1e-06, EPSU = 1e-06, EPSS =0.0001
+DS  = 0.0001, DSMIN=0.0001, DSMAX=   0.1, IADS=   1
+NPAR = 16, THL =  {'PERIOD': 0.0}, THU =  {}
+UZSTOP = {'mu':[-0.1,0.1]}
+UZR = {'mu': 0.0}
